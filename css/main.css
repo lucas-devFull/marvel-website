@@ -1,0 +1,211 @@
+#fundo{
+    background: url(../img/fundopage2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat:round;
+}
+.thumbnail{
+    height: 355px;
+    position: relative;
+    border: 1px solid black;
+}
+h4{
+    font-size: 1rem;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #fff;
+
+}
+.thumbnail>img{
+    width: 100%;
+    height: 80%;
+}
+
+nav{
+    text-align: center;
+
+}
+
+.pagina,
+.selecionavel,
+#proximo,
+#anterior{
+    cursor: pointer;
+}
+.topos{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+
+body{
+    background-image: url(../img/fundo.jpg);
+    background-position: center;
+}
+
+.pagination > li > a, .pagination > li > span{
+    background-color: black;
+    color: white;
+    border: black;   
+}
+
+.pagination:hover > li:hover > a:hover, .pagination:hover > li:hover > span:hover{
+    background-color:rgba(0, 0, 0, 0.9);
+
+}
+
+.thumb{
+    background-color:rgba(0, 0, 0, 0.9);
+
+}
+.thumbnail>img, h3,.caption{
+    cursor: pointer;
+    
+}
+.thumb:hover{
+    background-color: rgba(48, 47, 47, 0.911);
+    color: #fff;
+
+}
+
+.pagination{
+    font-size: 15px; 
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    margin-top: 100px;
+    width: 200%;
+
+}
+
+.edit{
+    background-color: rgba(48, 47, 47, 0.863);
+    border: 1px solid black;
+    border-radius: 10px ;
+    width: 60%;
+    padding: 10px 10px 5px 5px;
+    margin: 10px 0 10px 0;
+}
+
+
+.input-group-addon,
+.form-control{
+    border: none;
+    background: none;
+    color: #fff;
+
+}
+
+.form-control{
+    text-align: center;
+}
+
+.invisivel{
+    display: none;
+}
+.navbar-form{
+    margin-top: 0;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-responsive{
+    height: 12rem;
+}
+
+.ajuste{
+
+    text-align: center;
+}
+
+#botoes{
+    display: flex;
+    flex-flow: column;
+    
+
+}
+
+.btn{
+    margin-top:10px;
+    margin-bottom: 5px;
+    background-color: black;
+    color: #fff;
+    border: black solid 1px;
+
+}
+.btn:hover,
+.btn:focus,
+.btn:active:focus
+{
+    color: #fff !important;
+    background: rgba(48, 47, 47, 0.911);
+    border: black solid 1px; 
+    outline: none;
+
+
+}
+
+#menupg2{
+
+    display:flex;
+    flex-wrap: nowrap;
+
+}
+#Perspnagens{
+    display: flex;
+    justify-content: center
+}
+.img-tabela{
+    width: 50%;
+}
+.tabela{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+
+.voltar,
+.voltar1{
+    float: right;
+    margin-bottom: 5px;
+    background-color: black;
+    color: #fff;
+    border: black solid 1px; 
+
+}
+
+.voltar1{
+    float: left;
+}
+.voltar:hover{
+    background-color: rgba(48, 47, 47, 0.911);
+    color: #fff;
+
+}
+
+td{
+    width:400px;
+}
+
+p,.modal-body{
+    text-align: justify;
+}
+
+.modal-title{
+    color: black;
+}
+
+#btn-events{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.volte{
+    width: 100%;
+}

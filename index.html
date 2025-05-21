@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/icone-barra.png">
+    <title>API - Marvel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+       
+</head>
+
+<body>
+    <header>
+        <div class="topos">
+            <div class="edit">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1"><i class="fas fa-search"></i></span>
+
+                    <input type="text" class="form-control" id="campo" placeholder="Pesquise seu personagem"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
+
+            
+        </div>
+    </header>
+
+    
+
+    <!-- primeira pagina -->
+    <div class="container">
+        <div class="row" id="CorpoPerspnagens">
+        </div>
+    </div>
+
+    <div class="col-md-3 col-md-offset-5">
+        <ul id="Paginas" class="pagination"></ul>
+    </div>
+
+    <!-- scripts  -->
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/pag1/PaginaInicial.js"></script>
+    <script src="js/pag1/paginacao.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/pag1/filtrarInicial.js"></script>
+</body>
+
+</html>
